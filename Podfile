@@ -6,6 +6,7 @@ target 'Minigame' do
   use_frameworks!
 
   pod 'lottie-ios'
+  pod 'XLPagerTabStrip', '~> 9.0'
 
   # Pods for Minigame
 

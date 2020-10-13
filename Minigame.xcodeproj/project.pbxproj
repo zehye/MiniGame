@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045E68D425319D30008C30C4 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E68D325319D30008C30C4 /* TouchView.swift */; };
+		045E68D62531A628008C30C4 /* TouchSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E68D52531A628008C30C4 /* TouchSpotView.swift */; };
 		04ECB6B8252CAF4C00E9D269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6B7252CAF4C00E9D269 /* AppDelegate.swift */; };
 		04ECB6BA252CAF4C00E9D269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6B9252CAF4C00E9D269 /* SceneDelegate.swift */; };
-		04ECB6BC252CAF4C00E9D269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6BB252CAF4C00E9D269 /* ViewController.swift */; };
+		04ECB6BC252CAF4C00E9D269 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6BB252CAF4C00E9D269 /* GameVC.swift */; };
 		04ECB6BF252CAF4C00E9D269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB6BD252CAF4C00E9D269 /* Main.storyboard */; };
 		04ECB6C2252CAF4C00E9D269 /* Minigame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6C0252CAF4C00E9D269 /* Minigame.xcdatamodeld */; };
 		04ECB6C4252CAF5000E9D269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB6C3252CAF5000E9D269 /* Assets.xcassets */; };
 		04ECB6C7252CAF5000E9D269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB6C5252CAF5000E9D269 /* LaunchScreen.storyboard */; };
 		04ECB6D42531697C00E9D269 /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB6D32531697B00E9D269 /* money.json */; };
+		04ECB6D62531757300E9D269 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB6D52531757300E9D269 /* MainVC.swift */; };
 		A08C34F5108BA4ED42A1392B /* Pods_Minigame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1FF09FF300FC071742D3EB /* Pods_Minigame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045E68D325319D30008C30C4 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		045E68D52531A628008C30C4 /* TouchSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSpotView.swift; sourceTree = "<group>"; };
 		04ECB6B4252CAF4C00E9D269 /* Minigame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minigame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ECB6B7252CAF4C00E9D269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ECB6B9252CAF4C00E9D269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ECB6BB252CAF4C00E9D269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ECB6BB252CAF4C00E9D269 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		04ECB6BE252CAF4C00E9D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ECB6C1252CAF4C00E9D269 /* Minigame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minigame.xcdatamodel; sourceTree = "<group>"; };
 		04ECB6C3252CAF5000E9D269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ECB6C6252CAF5000E9D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04ECB6C8252CAF5000E9D269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ECB6D32531697B00E9D269 /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
+		04ECB6D52531757300E9D269 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4D1FF09FF300FC071742D3EB /* Pods_Minigame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minigame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1B26B6B8B7F984C4FD06AB /* Pods-Minigame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minigame.release.xcconfig"; path = "Target Support Files/Pods-Minigame/Pods-Minigame.release.xcconfig"; sourceTree = "<group>"; };
 		A056A11F54AD3B5374BCA8CC /* Pods-Minigame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minigame.debug.xcconfig"; path = "Target Support Files/Pods-Minigame/Pods-Minigame.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,10 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045E68D225319D0D008C30C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				045E68D325319D30008C30C4 /* TouchView.swift */,
+				045E68D52531A628008C30C4 /* TouchSpotView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04ECB6AB252CAF4C00E9D269 = {
 			isa = PBXGroup;
 			children = (
 				04ECB6B6252CAF4C00E9D269 /* Minigame */,
+				045E68D225319D0D008C30C4 /* Views */,
 				04ECB6B5252CAF4C00E9D269 /* Products */,
 				418CEC0D1A1E88381053E97C /* Pods */,
 				6BCC815D3DD69D687D768FD0 /* Frameworks */,
@@ -81,7 +97,6 @@
 				04ECB6D22531694900E9D269 /* Resources */,
 				04ECB6B7252CAF4C00E9D269 /* AppDelegate.swift */,
 				04ECB6B9252CAF4C00E9D269 /* SceneDelegate.swift */,
-				04ECB6C3252CAF5000E9D269 /* Assets.xcassets */,
 				04ECB6C8252CAF5000E9D269 /* Info.plist */,
 				04ECB6C0252CAF4C00E9D269 /* Minigame.xcdatamodeld */,
 			);
@@ -91,7 +106,8 @@
 		04ECB6CF2531672700E9D269 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				04ECB6BB252CAF4C00E9D269 /* ViewController.swift */,
+				04ECB6BB252CAF4C00E9D269 /* GameVC.swift */,
+				04ECB6D52531757300E9D269 /* MainVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -116,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				04ECB6D32531697B00E9D269 /* money.json */,
+				04ECB6C3252CAF5000E9D269 /* Assets.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -254,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ECB6C2252CAF4C00E9D269 /* Minigame.xcdatamodeld in Sources */,
-				04ECB6BC252CAF4C00E9D269 /* ViewController.swift in Sources */,
+				04ECB6D62531757300E9D269 /* MainVC.swift in Sources */,
+				04ECB6BC252CAF4C00E9D269 /* GameVC.swift in Sources */,
 				04ECB6B8252CAF4C00E9D269 /* AppDelegate.swift in Sources */,
+				045E68D62531A628008C30C4 /* TouchSpotView.swift in Sources */,
+				045E68D425319D30008C30C4 /* TouchView.swift in Sources */,
 				04ECB6BA252CAF4C00E9D269 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
